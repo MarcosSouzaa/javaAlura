@@ -1,33 +1,33 @@
-# 🏦 Sistema Simples de Conta Bancária (Revisão Java Core)
+# 🏬 Primeiro projeto e 🎥 Projeto ScreenMatch (Revisão Java Core)
 
 ## 🌟 Status do Projeto
-✅ Fase 1 (Revisão de Lógica e Estruturas) - CONCLUÍDA
-➡️ Fase 2 (Implementação Orientada a Objetos - POO) - EM ANDAMENTO
+✅ Fase 1 (Revisão de Lógica e Estruturas - Projeto Extrato Bancário) - CONCLUÍDA
+➡️ Fase 2 (Implementação Orientada a Objetos - POO com ScreenMatch) - EM ANDAMENTO
 
 ## 📝 Descrição
 
-Este repositório contém o código desenvolvido durante a revisão da fase inicial de Java, com foco em Lógica de Programação e Estruturas de Controle. O objetivo principal deste projeto é criar um sistema interativo de gerenciamento de conta bancária, preparando o terreno para a refatoração em Programação Orientada a Objetos (POO).
+Este repositório contém o código desenvolvido durante a revisão inicial de Java, com foco em Lógica de Programação e Estruturas de Controle. A próxima e principal fase de estudos será baseada no projeto **ScreenMatch**, que visa criar um catálogo de filmes e séries, aplicando rigorosamente os conceitos de **Programação Orientada a Objetos (POO)** em um contexto prático e envolvente.
 
-## 💡 Conceitos Fundamentais Aplicados
+## 💡 Conceitos Fundamentais Aplicados (Fase 1)
 
-Nesta primeira fase, os seguintes conceitos foram consolidados:
+Na fase inicial de revisão (projeto Extrato Bancário), os seguintes conceitos foram consolidados:
 
-* **Tipos de Dados:** Uso de `int` para escolha do menu e `String` para mensagens.
-* **Tipos de Referência (Finanças):** Utilização do `java.math.BigDecimal` para manipulação precisa do saldo e valores monetários, garantindo a integridade dos cálculos.
+* **Tipos de Dados:** Uso de tipos primitivos (`int`, `String`).
+* **Precisão Financeira:** Utilização do `java.math.BigDecimal` para garantir a precisão de cálculos monetários.
 * **Estruturas de Controle:**
     * **Loop `while`:** Implementação do menu contínuo de operações.
     * **`switch`:** Tratamento e direcionamento das escolhas do usuário.
-    * **`if/else`:** Lógica de negócio para validar transações (ex: checagem de saldo suficiente para saque).
+    * **`if/else`:** Lógica de negócio para validação (checar saldo, valores positivos, etc.).
 * **Interação com o Usuário:** Uso da classe `java.util.Scanner` para captura de entradas.
-* **Formatação de Saída:** Uso do `printf` e `String.format` para exibir o saldo com precisão decimal (`%.2f`).
 
-## 🚀 Próximos Passos (Foco em POO)
+## 🎬 Próximos Passos (Foco em POO com ScreenMatch)
 
-A próxima etapa será refatorar este código procedural (atualmente concentrado no método `main`) para um design Orientado a Objetos mais robusto, introduzindo:
+A próxima etapa será refatorar o projeto de filmes para um design Orientado a Objetos profissional, introduzindo e dominando os pilares da POO:
 
-1.  **Classe `Conta`:** Para encapsular o saldo e os métodos de depósito/saque.
-2.  **Classe `Cliente`:** Para representar o dono da conta (com atributos como nome e CPF).
-3.  **Encapsulamento:** Garantir que o saldo só seja alterado por meio de métodos controlados (Saque e Depósito).
+1.  **Classes e Objetos:** Criação das classes `Filme`, `Serie` e `Titulo` para modelar os dados e comportamentos do catálogo.
+2.  **Encapsulamento:** Proteção do estado dos objetos (atributos privados) com métodos *getters* e *setters* de acesso controlado.
+3.  **Métodos:** Implementação de funcionalidades como calcular duração, exibir ficha técnica e métodos para avaliação.
+4.  **Herança e Polimorfismo:** (Tópicos Avançados) Introdução à hierarquia de classes (ex: `Titulo` como superclasse) e ao comportamento polimórfico.
 
 ## ⚙️ Como Executar o Projeto
 
@@ -38,6 +38,6 @@ A próxima etapa será refatorar este código procedural (atualmente concentrado
 2.  **Abra no IntelliJ IDEA:**
     * No IntelliJ, selecione **File** -> **Open** e aponte para a pasta clonada.
 3.  **Execute:**
-    * Localize a classe principal (`Conta.java` ou similar) e execute o método `main`.
+    * Localize a classe principal (`Main.java` ou similar) e execute o método `main`.
 
 ---
